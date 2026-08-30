@@ -65,3 +65,13 @@ User-agent: MistralAI-User
 Allow: /
 
 Sitemap: https://tyson-swetnam.github.io/sitemap.xml
+Sitemap: https://tyson-swetnam.github.io/intro-gpt/sitemap.xml
+
+# --- AI agents and harnesses: GPT 101 workshop (/intro-gpt/) ---
+# The sub-site is an Open Knowledge Format (OKF v0.2) bundle with
+# agent-readable publishing:
+#   Machine-readable outline:  https://tyson-swetnam.github.io/intro-gpt/llms.txt
+#   Full corpus (one file):    https://tyson-swetnam.github.io/intro-gpt/llms-full.txt
+#   Markdown source of any page (OKF frontmatter: type, provenance,
+#   trust, lifecycle): replace the trailing / with .md
+#   Agent guide:               https://tyson-swetnam.github.io/intro-gpt/agents/
