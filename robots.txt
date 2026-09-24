@@ -66,6 +66,7 @@ Allow: /
 
 Sitemap: https://tyson-swetnam.github.io/sitemap.xml
 Sitemap: https://tyson-swetnam.github.io/intro-gpt/sitemap.xml
+Sitemap: https://tyson-swetnam.github.io/cod-kmap/sitemap.xml
 
 # --- AI agents and harnesses: GPT 101 workshop (/intro-gpt/) ---
 # The sub-site is an Open Knowledge Format (OKF v0.2) bundle with
@@ -75,3 +76,20 @@ Sitemap: https://tyson-swetnam.github.io/intro-gpt/sitemap.xml
 #   Markdown source of any page (OKF frontmatter: type, provenance,
 #   trust, lifecycle): replace the trailing / with .md
 #   Agent guide:               https://tyson-swetnam.github.io/intro-gpt/agents/
+
+# --- AI agents and harnesses: COD Knowledge Map (/cod-kmap/) ---
+# A MapLibre + DuckDB-Wasm application: the rendered page is an empty shell
+# without JavaScript, but every document and data table it shows is a plain
+# static file with a stable address. Do not scrape the page; use these:
+#   Machine-readable outline:  https://tyson-swetnam.github.io/cod-kmap/llms.txt
+#   Full corpus (one file):    https://tyson-swetnam.github.io/cod-kmap/llms-full.txt
+#   Agent guide:               https://tyson-swetnam.github.io/cod-kmap/docs/for_ai_agents.md
+#   Data endpoint reference:   https://tyson-swetnam.github.io/cod-kmap/docs/data_endpoints.md
+#   Markdown source of any documentation page: append the filename to
+#   https://tyson-swetnam.github.io/cod-kmap/docs/ (served as text/markdown);
+#   also mirrored at https://raw.githubusercontent.com/tyson-swetnam/cod-kmap/main/docs/
+#   Queryable data: 46 Parquet tables, one per relation, at
+#   https://tyson-swetnam.github.io/cod-kmap/public/parquet/<table>.parquet
+#   served with HTTP range-request support, so DuckDB can query a table in
+#   place without downloading it. Columns, types and row counts for every
+#   table: https://tyson-swetnam.github.io/cod-kmap/public/parquet/schema.json
