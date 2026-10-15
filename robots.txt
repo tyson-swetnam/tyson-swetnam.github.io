@@ -67,6 +67,7 @@ Allow: /
 Sitemap: https://tyson-swetnam.github.io/sitemap.xml
 Sitemap: https://tyson-swetnam.github.io/intro-gpt/sitemap.xml
 Sitemap: https://tyson-swetnam.github.io/cod-kmap/sitemap.xml
+Sitemap: https://tyson-swetnam.github.io/energetics-pymol/sitemap.xml
 
 # --- AI agents and harnesses: GPT 101 workshop (/intro-gpt/) ---
 # The sub-site is an Open Knowledge Format (OKF v0.2) bundle with
@@ -93,3 +94,13 @@ Sitemap: https://tyson-swetnam.github.io/cod-kmap/sitemap.xml
 #   served with HTTP range-request support, so DuckDB can query a table in
 #   place without downloading it. Columns, types and row counts for every
 #   table: https://tyson-swetnam.github.io/cod-kmap/public/parquet/schema.json
+
+# --- AI agents and harnesses: Energetics PyMOL gallery (/energetics-pymol/) ---
+# 3D models of the forest-biomass molecules in "Ecosystems as energy fields".
+# The viewer is JavaScript (Mol*/3Dmol); read these static files instead:
+#   Machine-readable outline:  https://tyson-swetnam.github.io/energetics-pymol/llms.txt
+#   Full corpus (one file):    https://tyson-swetnam.github.io/energetics-pymol/llms-full.txt
+#   Catalog with ChEBI/GO/ENVO terms (JSON-LD, Bioschemas):
+#                              https://tyson-swetnam.github.io/energetics-pymol/molecules.jsonld
+#   Structure files: https://tyson-swetnam.github.io/energetics-pymol/pdb/<id>.pdb
+#   (OBO Foundry terms in each file's REMARK 950 header)
