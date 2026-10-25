@@ -68,6 +68,7 @@ Sitemap: https://tyson-swetnam.github.io/sitemap.xml
 Sitemap: https://tyson-swetnam.github.io/intro-gpt/sitemap.xml
 Sitemap: https://tyson-swetnam.github.io/cod-kmap/sitemap.xml
 Sitemap: https://tyson-swetnam.github.io/energetics-pymol/sitemap.xml
+Sitemap: https://tyson-swetnam.github.io/fractal-notebooks/sitemap.xml
 
 # --- AI agents and harnesses: GPT 101 workshop (/intro-gpt/) ---
 # The sub-site is an Open Knowledge Format (OKF v0.2) bundle with
@@ -104,3 +105,21 @@ Sitemap: https://tyson-swetnam.github.io/energetics-pymol/sitemap.xml
 #                              https://tyson-swetnam.github.io/energetics-pymol/molecules.jsonld
 #   Structure files: https://tyson-swetnam.github.io/energetics-pymol/pdb/<id>.pdb
 #   (OBO Foundry terms in each file's REMARK 950 header)
+
+# --- AI agents and harnesses: Fractal Notebooks (/fractal-notebooks/) ---
+# Self-affine fractals and metabolic scaling theory: Part I teaching chapters, four
+# research manuscripts (drafts), pre-rendered Jupyter notebooks, React/Streamlit apps,
+# and two Open Knowledge Format (OKF v0.2) bundles (32 concepts; 12 proofs with
+# [verified]/[asserted] steps). Built with Zensical; every page has a Markdown twin.
+#   Machine-readable outline:  https://tyson-swetnam.github.io/fractal-notebooks/llms.txt
+#   Full corpus (one file):    https://tyson-swetnam.github.io/fractal-notebooks/llms-full.txt
+#   Markdown source of any page (OKF frontmatter: type, provenance, trust,
+#   lifecycle): replace the trailing / with .md; for directory pages (homepage,
+#   section landings, OKF groups) append index.md; or read the page's
+#   <link rel="alternate" type="text/markdown"> element.
+#   OKF bundle roots:          https://tyson-swetnam.github.io/fractal-notebooks/okf/concepts/index.md
+#                              https://tyson-swetnam.github.io/fractal-notebooks/okf/proofs/index.md
+#   Agent guide:               https://tyson-swetnam.github.io/fractal-notebooks/agents/
+#   The React apps under /fractal-notebooks/react/ are a JavaScript HashRouter
+#   application (one URL, routes after #/); read the Markdown descriptions at
+#   https://tyson-swetnam.github.io/fractal-notebooks/applications/react-apps.md instead.

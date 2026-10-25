@@ -48,7 +48,7 @@ whose `resource` field is the live URL of the sub-site.
 * [eemt](sites/eemt.md) - Public repository for the eemt (effective energy and mass transfer) workflow
 * [emsi](sites/emsi.md) - Ecosystem moisture stress index
 * [energetics-pymol](sites/energetics-pymol.md) - Figures for energetics chapter
-* [fractal-notebooks](sites/fractal-notebooks.md) - Python apps and Jupyter notebooks for simulating self-affine fractals
+* [fractal-notebooks](sites/fractal-notebooks.md) - Self-affine fractals and metabolic scaling theory: teaching chapters, research manuscripts, rendered notebooks, apps, and OKF v0.2 concept/proof bundles
 * [lto](sites/lto.md) - Long Term Observatory Network
 * [nakoda](sites/nakoda.md) - Documentation for sUAS rebuild of Arizona Game and Fish Department heavy-lift sUAS 'Nakoda'
 * [prometheus](sites/prometheus.md) - Project Prometheus
